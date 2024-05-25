@@ -1,0 +1,14 @@
+/* layout.js에 연결된 스타일시트 */
+/* layout.js가 모든 페이지에 영향을 미치기 때문에 globals.css로 모든 것에 적용됨 */
+
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+a {
+  color: inherit; /* 부모의 것을 사용 */
+  text-decoration: none;
+}
+
